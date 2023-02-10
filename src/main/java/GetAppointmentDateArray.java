@@ -61,7 +61,7 @@ public class GetAppointmentDateArray implements Job{
 			System.out.println(new Date() + ": " + appointmentDateArray);
 			SMSSender.sendSMS(PhoneNumbers, appointmentDateArray.toString());
 			Sound.play();
-			sendEmail(appointmentDateArray.toString());
+			//sendEmail(appointmentDateArray.toString());
 		}
 	}
 
