@@ -121,12 +121,6 @@ public class GetAppointmentDateArray implements Job{
 		    System.out.println("Done");
 		} catch (MessagingException e) {
 			e.printStackTrace();
-		    throw new RuntimeException(e);
 		}
-	}
-	
-	public static void main1(String[] s) {
-		GetAppointmentDateArray main = new GetAppointmentDateArray();
-		main.sendEmail("Subject");
 	}
 }
